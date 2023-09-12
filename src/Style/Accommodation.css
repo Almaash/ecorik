@@ -1,0 +1,90 @@
+.container-acc{
+    background-image: url(../Img/r1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 250px;
+    color: white;
+    font-family: 'Playfair Display', serif;
+    font-weight: 500px;
+    padding-top: 100px;
+}
+
+.container-acc p{
+    text-align: justify;
+}
+.container-det{
+    display: flex;
+}
+
+.container-det button{
+    width: 100px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: #a36f0e;
+    border-color: #a36f0e;
+    border-style: solid;
+    color: white;
+}
+
+.container-det button:hover{
+    background-color: #b8a789;
+    color: black;
+    transition: 0.5s;
+}
+.container-det .btn1{
+    margin-left: 100px;
+    font-size: 14px;
+}
+.container-det .btn2{
+    margin-left: 20px;
+    font-size: 14px;
+}
+
+
+.container-acc1 img{
+    height: 380px;
+    width: 600px;
+}
+.container-acc1 img:hover{
+    box-shadow: 5px 5px 5px 5px grey;
+    transition: 0.8s;
+}
+
+.container-acc1 a{
+    color: black;
+    font-family: 'Playfair Display', serif;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+
+.container-acc1 h6{
+    padding-top: 50px;
+    /* padding-bottom: 50px; */
+    color: #614208;
+    font-weight: 400;
+}
+
+.container-acc1 .row{
+   margin-left: 20px;
+}
+
+@media screen and (max-width: 480px){
+    .container-acc1 .row{
+        margin-left: 0px;
+        margin-top: 50px;
+     }
+
+    .container-det .btn1{
+        margin-left: 10px;
+        font-size: 14px;
+    }
+    .container-det .btn2{
+        margin-left: 20px;
+        font-size: 14px;
+    }
+    .container-det h4{
+        font-size: 17px;
+    }
+}

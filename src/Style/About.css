@@ -1,0 +1,24 @@
+.container-12{
+    background-image: url(../Img/lobby.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 250px;
+    color: white;
+    font-family: 'Playfair Display', serif;
+    font-weight: 500px;
+    padding-top: 100px;
+}
+
+.container-13 {
+    margin-top: 100px;
+}
+
+.container-13 h2{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-family: 'Playfair Display', serif;
+}
+
+.container-13 p{
+    text-align: justify;
+}

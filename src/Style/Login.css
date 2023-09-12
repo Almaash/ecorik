@@ -1,0 +1,55 @@
+.container-11 {
+    margin-top: 100px;
+}
+.container-11 h3{
+    padding-left: 20px;
+    font-family: 'Playfair Display', serif;
+    
+}
+.container-11 .btn{
+    background-color: #b37b0c;
+    color: white;
+    width: 80vh;
+}
+
+.container-11 .rightbox{
+    border-left: 1px solid #422d06;
+}
+
+.container-11 .btnjoin{
+    width: 500px;
+    border-radius: 5px;
+    height: 40px;
+    background-color: #8f610d;
+    border-color: #8f610d;
+    border-width: 2px;
+    color: white;
+}
+.container-11 .btnjoin:hover{
+   background-color: black;
+   color: white;
+   border-color: black;
+}
+
+@media screen and (max-width: 480px){
+    .container-11 .btn{
+        background-color: #b37b0c;
+        color: white;
+        width: 70vh;
+    }
+
+    .container-11 .btnjoin{
+        width: 400px;
+    }
+
+    .container-11 .rightbox h3{
+        padding-top: 50px;
+    }
+    .container-11 .rightbox h6{
+        text-align: center;
+    }
+    .container-11 .rightbox p{
+        text-align: center;
+        padding-bottom: 50px;
+    }
+}

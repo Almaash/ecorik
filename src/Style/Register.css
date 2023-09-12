@@ -1,0 +1,37 @@
+.container-10 img{
+    margin-top: 79px;
+    margin-bottom: 26px;
+    height: 50px;
+}
+
+.container-10 p{
+    color: rgb(119, 118, 118);
+}
+
+.container-10 form{
+    margin-top: 150px;
+    margin-left: 50px;
+    align-items: center;
+}
+
+.container-10 form p{
+    font-size: 13px;
+    padding-top: 15px;
+}
+
+.container-10 form button{
+    width: 640px;
+    background-color: #8f610d;
+    color: white;
+}
+@media screen and (max-width: 480px){
+    .container-10 form button{
+        width: 400px;
+    }
+
+    .container-10 form{
+        
+        margin-left: 0px;
+        
+    }
+}
